@@ -301,7 +301,6 @@ GameObject:
   - component: {fileID: 966746029}
   - component: {fileID: 966746028}
   - component: {fileID: 966746030}
-  - component: {fileID: 966746032}
   - component: {fileID: 966746031}
   - component: {fileID: 966746033}
   - component: {fileID: 966746034}
@@ -472,7 +471,6 @@ MonoBehaviour:
   - {fileID: 966746021}
   - {fileID: 966746033}
   - {fileID: 966746028}
-  - {fileID: 966746032}
   - {fileID: 966746031}
   - {fileID: 966746030}
 --- !u!114 &966746026
@@ -502,7 +500,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 966746025}
   selectedCommands:
-  - {fileID: 966746034}
+  - {fileID: 966746028}
   variables:
   - {fileID: 966746023}
   description: 
@@ -663,70 +661,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0.5
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &966746032
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966746020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 966746023}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 6
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &966746033
 MonoBehaviour:
   m_ObjectHideFlags: 2
